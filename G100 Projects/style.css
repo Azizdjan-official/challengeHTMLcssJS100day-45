@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&family=Playfair+Display:wght@400;500;600;800&family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+
+html{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+
+
+.container{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.main{
+    background: #fff0f4;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 img{
+    object-fit: cover;
+    height: 100vh;
+}
+
+.row1{
+    align-items: center;
+    flex-basis: 40%;
+}
+
+.row2{
+    align-items: left;
+    flex-basis: 55%;
+}
+
+.navlinks ul{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    margin: 3rem;
+    list-style-type: none;
+}
+
+.navlinks ul li{
+    padding: 0 2rem;
+}
+
+.navlinks ul li a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #444;
+    transition: 0.3s ease-in-out;
+}
+
+.navlinks ul li a:hover{
+    color: #000;
+}
+
+
+.navlinks ul li .active{
+    color: #000;
+    font-weight: 800;
+}
+
+.nav-btn{
+    color: #47728b;
+    background: transparent;
+    border: 2px solid #47728b;
+    font-size: 1.6rem;
+    margin-left: 3rem;
+    padding: 0.7rem 2.5rem;
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    transition:  0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    background: #47728b;
+    color: #f5f5f5;
+}
+
+.btn-m{
+    margin-top: 4rem;
+}
+
+.btn{
+    color: #fff;
+    background: #2c2c2c;
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    font-family: 'Averia Serif Libre', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+.men
+{
+    width: 100%;
+    height: 100%;
+}
+.body-heading h1{
+    font-size: 11.3rem;
+    font-family: 'Rubik Moonrocks', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #47728b;
+    margin-bottom: 3.5rem;
+}
+
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+    flex-basis: 47%;
+}
+
+.row p{
+    font-size: 1.7rem;
+    color: #343434;
+}
+
+.primary-btn{
+    color: #47728b;
+    background: transparent;
+    border: 2px solid #47728b;
+    font-size: 1.6rem;
+    margin: 1.5rem auto;
+    padding: 0.7rem 2.5rem;
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    transition:  0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.primary-btn:hover{
+    background: #47728b;
+    color: #f5f5f5;
+}
+
+.logos img{
+    margin-top: 3rem;
+    width: 65%;
+    cursor: pointer;
+}
+
+.text .row span{
+    color: #47728b;
+    font-weight: 700;
+}
